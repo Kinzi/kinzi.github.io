@@ -1,18 +1,7 @@
-.usp-icons {
-    font-size: 2.3rem;
+li {
+	list-style: none;
 }
 
-.usp-text {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-}
-
-.cta-btn {
-	font-size: 1.5rem;
-}
-
-@include rwd('compact') {
-	.usp-text {
-		text-align: center;
-	}
+li:before {
+    content: '> ';
 }
