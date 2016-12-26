@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Dosis:300,400,700');
 
 // Import Linea Icons
-$linea-font-path: '../../node_modules/linea-scss/fonts/';
+$linea-font-path: './fonts/';
 @import "../../node_modules/linea-scss/linea";
 
 // Import colors (optional)

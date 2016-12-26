@@ -7,4 +7,4 @@
 
 Just download, 
 ```npm install```
-, ```grunt watch``` and you are good to go in ```app.scss```
+, ```grunt watch``` and you are good to go in ```app.scss``
