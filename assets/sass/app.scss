@@ -1,0 +1,21 @@
+// Import Google Font
+@import url('https://fonts.googleapis.com/css?family=Dosis:300,400,700');
+
+// Import Linea Icons
+$linea-font-path: '../fonts/';
+@import "../../node_modules/linea-scss/linea";
+
+// Import colors (optional)
+@import "../../node_modules/hocus-pocus/sass/colors";
+
+// Define hocus pocus settings
+$rwd-type: mobile-first;
+$rwd-map: (compact: 320px 520px, regular: 521px);
+$grid-container: 1020px;
+$font-family-base: 'Dosis', Roboto, Helvetica, Arial, sans-serif;
+
+// Import Hocus-Pocus
+@import "../../node_modules/hocus-pocus/hocus-pocus";
+
+// Import my styles
+@import "myStyles";
