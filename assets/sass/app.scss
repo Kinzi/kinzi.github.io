@@ -1,7 +1,3 @@
-/*!
-  Start writing your CSS here (or in neatly imported subfiles)
-*/
-
 // Import Google Font
 @import url('https://fonts.googleapis.com/css?family=Dosis:300,400,700');
 
@@ -12,13 +8,11 @@ $linea-font-path: '../../node_modules/linea-scss/fonts/';
 // Import colors (optional)
 @import "../../node_modules/hocus-pocus/sass/colors";
 
-
 // Define hocus pocus settings
 $rwd-type: mobile-first;
 $rwd-map: (compact: 320px 520px, regular: 521px);
-
-$font-family-base: 'Dosis', Roboto, Helvetica, Arial, sans-serif;
 $grid-container: 1020px;
+$font-family-base: 'Dosis', Roboto, Helvetica, Arial, sans-serif;
 
 // Import Hocus-Pocus
 @import "../../node_modules/hocus-pocus/hocus-pocus";
